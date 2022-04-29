@@ -1,0 +1,262 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-28T23:35:44.906Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13040280174,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User can login succesfully",
+        "description": "",
+        "id": "ghost-login;user-can-login-succesfully",
+        "after": [
+          {
+            "result": {
+              "duration": 256683117,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3065215105,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to Ghost Signin Page",
+            "match": {
+              "location": "SigninSteps.iNavigateToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3756892582,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I log into the site with user paulorossi85@gmail.com and password test@12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "paulorossi85@gmail.com",
+                  "offset": 30
+                },
+                {
+                  "val": "test@12345",
+                  "offset": 66
+                }
+              ],
+              "location": "SigninSteps.i_log_into_the_site_with_credentials_frank_sinatra(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5473451121,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I will be in Home Page",
+            "match": {
+              "location": "HomeSteps.i_will_be_in_Home_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 156639145,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will have an option to edit Pages",
+            "match": {
+              "location": "HomeSteps.iWillHaveOptionEditPages()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-28T23:36:10.669Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5603851543,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "User can not log in using wrong credentials",
+        "description": "",
+        "id": "ghost-login;user-can-not-log-in-using-wrong-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 256663501,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3762352751,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I navigate to Ghost Signin Page",
+            "match": {
+              "location": "SigninSteps.iNavigateToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3702523573,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I log into the site with user foo@bar.com and password toast@12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "foo@bar.com",
+                  "offset": 30
+                },
+                {
+                  "val": "toast@12345",
+                  "offset": 55
+                }
+              ],
+              "location": "SigninSteps.i_log_into_the_site_with_credentials_frank_sinatra(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 151553472,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I will see a login error",
+            "match": {
+              "location": "SigninSteps.i_will_see_an_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-28T23:36:24.150Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8927682398,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "User can not log in using wrong credentials",
+        "description": "",
+        "id": "ghost-login;user-can-not-log-in-using-wrong-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 255035938,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2858761165,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I navigate to Ghost Signin Page",
+            "match": {
+              "location": "SigninSteps.iNavigateToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4243328060,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I log into the site with user paulorossi85@gmail.com and password toast@12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "paulorossi85@gmail.com",
+                  "offset": 30
+                },
+                {
+                  "val": "toast@12345",
+                  "offset": 66
+                }
+              ],
+              "location": "SigninSteps.i_log_into_the_site_with_credentials_frank_sinatra(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 114596252,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I will see a login error",
+            "match": {
+              "location": "SigninSteps.i_will_see_an_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Ghost Login",
+    "description": "  As a User\n  I want to log into Ghost\n  So I admin the site",
+    "id": "ghost-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": []
+  }
+]
